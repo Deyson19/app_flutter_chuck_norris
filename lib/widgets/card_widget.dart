@@ -28,8 +28,8 @@ class _JokeCardState extends State<JokeCard> {
               image: DecorationImage(image: NetworkImage(
                 widget.chuckImage,
               ),
-              fit: BoxFit.cover,
-              colorFilter: ColorFilter.mode(const Color.fromARGB(255, 28, 84, 105), BlendMode.dstOver)
+              fit: BoxFit.fill,
+              colorFilter: const ColorFilter.mode(Color.fromARGB(255, 28, 84, 105), BlendMode.dstOver)
               )
             ),
             child: Column(
